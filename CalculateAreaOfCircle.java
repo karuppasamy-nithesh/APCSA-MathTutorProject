@@ -3,7 +3,7 @@
  * Nithesh Karuppasamy
  * Find the area of the circle based on the user input's radius
  *
- * Resources : Quiz corrections from quiz 1a and 1b
+ * Resources : Quiz corrections from quiz 1a and 1b and dad
  *
  */
 

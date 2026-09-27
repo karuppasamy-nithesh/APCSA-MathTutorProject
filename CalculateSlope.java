@@ -3,7 +3,7 @@
  * Nithesh Karuppasamy
  * Solve a calculate slope problem
  *
- * Resources : Quiz corrections from quiz 1a and 1b
+ * Resources : Quiz corrections from quiz 1a and 1b and dad 
  *
  */
 

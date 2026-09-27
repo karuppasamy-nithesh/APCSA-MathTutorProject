@@ -3,7 +3,7 @@
 * Nithesh Karuppasamy
 * Solves math problems using basic formulas so students can learn the formula 
 * and solve the problem on their own
-* Resources : Dad
+* Resources : Dad and quiz corrections 1a and 1b
 *
 */
 

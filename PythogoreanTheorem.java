@@ -3,7 +3,7 @@
  * Nithesh Karuppasamy
  * Use the pythgorean theorem to find the third side of the 
  *
- * Resources : Quiz corrections from quiz 1a and 1b
+ * Resources : Quiz corrections from quiz 1a and 1b and dad 
  *
  */
 
