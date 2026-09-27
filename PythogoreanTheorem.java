@@ -3,13 +3,13 @@
  * Nithesh Karuppasamy
  * Use the pythgorean theorem to find the third side of the 
  *
- * Resources :
+ * Resources : Quiz corrections from quiz 1a and 1b
  *
  */
 
 import java.util.Scanner; 
 
-public class CalculateAreaOfCircle{
+public class PythogoreanTheorem{
     private double a;
     private double b;
 
@@ -24,7 +24,12 @@ public class CalculateAreaOfCircle{
     
     public double findsC()
     {
-     return (Math.sqrt(Math.pow(a,2) + Math.pow(b,2)));
+        if (a <= 0 || b <=0){
+        System.out.println("Please enter the sides of triangle that is greater than zero");
+        return 0;
+      } else {
+        return (Math.sqrt(Math.pow(a,2)+ Math.pow(b,2)));
+      }
     
-    }
-}
+     }
+   }

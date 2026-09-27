@@ -3,7 +3,7 @@
  * Nithesh Karuppasamy
  * Solve a calculate slope problem
  *
- * Resources :
+ * Resources : Quiz corrections from quiz 1a and 1b
  *
  */
 
@@ -27,8 +27,15 @@ public class CalculateSlope{
     }
     
     public double solveSlope()
-    {
-     return ((y2-y1)/(x2-x1));
+    { 
+     if (x2-x1 == 0){
+        System.out.println("Please enter two different x values and both them cannot be zero");
+        return 0;
+      } else {
+        return ((y2-y1)/(x2-x1));
+    }
+    
+    
     
     }
 }

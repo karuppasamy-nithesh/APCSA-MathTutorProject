@@ -3,7 +3,7 @@
  * Nithesh Karuppasamy
  * Find the area of the circle based on the user input's radius
  *
- * Resources :
+ * Resources : Quiz corrections from quiz 1a and 1b
  *
  */
 
@@ -21,9 +21,14 @@ public class CalculateAreaOfCircle{
         input.close();
     }
     
-    public double solveSlope()
+    public double findArea() 
     {
-     return (Math.PI*Math.pow(radius,2));
+      if (radius == 0){
+        System.out.println("Please enter a radius that is not equal to zero");
+        return 0;
+      } else {
+        return (Math.PI*Math.pow(radius,2));
+    }
     
     }
 }
