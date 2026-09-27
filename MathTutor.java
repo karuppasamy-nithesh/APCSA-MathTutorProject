@@ -24,7 +24,7 @@
         CalculateSlope x = new CalculateSlope();
         x.acceptInput();
         double result = x.solveSlope();
-        if (result > 0){ 
+        if (result != 0){ 
         System.out.println("The slope of the coordinates you chose is: " + result);  
         }
     

@@ -18,10 +18,10 @@ public class CalculateSlope{
     public void acceptInput()
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter 4 doubles, all separated by a space");
+        System.out.println("Enter two coordinate values, separated by a space ex: (4,0) (3,1)");
         x1 = input.nextDouble();
-        x2 = input.nextDouble();
         y1 = input.nextDouble();
+        x2 = input.nextDouble();
         y2 = input.nextDouble();
         input.close();
     }
