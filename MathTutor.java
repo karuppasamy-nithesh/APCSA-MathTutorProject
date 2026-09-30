@@ -27,6 +27,9 @@
         if (result != 0){ 
         System.out.println("The slope of the coordinates you chose is: " + result);  
         }
+
+
+        // gj
     
     
     }else if (choice == 2){
